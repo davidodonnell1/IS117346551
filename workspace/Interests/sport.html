@@ -75,6 +75,7 @@ h1 {
 
 .button1 {padding: 14px 40px;}
 
+
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -87,18 +88,14 @@ $(document).ready(function(){
     });
 });
 </script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script> /*global$*/
+<script>
 $(document).ready(function(){
     $("button").click(function(){
-        $("p").fadeIn();
-        $("p").fadeIn("slow");
-        $("p").fadeIn(3000);
+        $("#p").fadeIn("slow");
     });
 });
 </script>
-
 </head>
 <body background = "http://getwallpapers.com/wallpaper/full/5/8/c/587386.jpg">
 
@@ -128,8 +125,8 @@ $(document).ready(function(){
 </br>
 </br>
 <button class="button button1">Soccer</button>
-<div id="p">
-<p  style=";color:#e4e8b2;font-size:24px">The sport that I am most intesested in would certainly be Soccer.</p>
+<div id="p" style = display:none >
+<p  style=";color:#e4e8b2;font-size:24px"> <img src="https://usatftw.files.wordpress.com/2015/09/drogba.gif?w=1000" alt="Drogba" style="float:right;width:640px;height:360px;">The sport that I am most intesested in would certainly be Soccer.</p>
 <p  style=";color:#e4e8b2;font-size:24px">I have played for many soccer teams in Cork including:</p>
 <p  style=";color:#e4e8b2;font-size:24px"> - College Corinthians AFC</p>
 <p  style=";color:#e4e8b2;font-size:24px"> - Douglas Hall AFC</p>
@@ -138,8 +135,6 @@ $(document).ready(function(){
 <p  style=";color:#e4e8b2;font-size:24px"> I have supported Chelsea Football Club my whole life and regularly travel to London </p>
 <p  style=";color:#e4e8b2;font-size:24px">with my Dad and Brother to watch matches in the stadium, Stamford Bridge.</p>
 </div>
-
-
 
 
 </body>

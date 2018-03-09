@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+	<title>
+		Cloud Services
+	</title>
 <head>
 
 <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
@@ -11,13 +14,95 @@ $(document).ready(function() {
 	$('#pagepiling').pagepiling();
 });
 </script>
+<style>
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: lightblue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    text-decoration: underline;
+}
+</style>
+</style>
 
 </head>
 <body>
+	
+	<body background = "http://images4.fanpop.com/image/photos/19000000/blue-cloud-background-blue2-19029417-1920-986.jpg">
+
+
+<ul>
+  <li><a href="../Homepage.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CV/Resume</a>
+    <div class="dropdown-content">
+      <a href="../CV/CV-Page1.html">Personal Details</a>
+      <a href="../CV/CV-Page2.html">Education</a>
+      <a href="../CV/CV-Page3.html">Work Experience</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Interests</a>
+    <div class="dropdown-content">
+      <a href="../Interests/sport.html">Sport</a>
+      <a href="../Interests/travel.html">Travel</a>
+      <a href="../Interests/cloud.html">Cloud Services</a>
+    </div>
+  </li>
+  <li><a href="../aboutcloud.html">About Cloud</a></li>
+</ul>
+        <h1 style="text-align:center;color:white;font-size:50px">Cloud Services</h1>
+
 
 <div id="pagepiling">
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
+	<div class="section">Cloud Services</div>
 	<div class="section">Some section</div>
 	<div class="section">Some section</div>
 </div>

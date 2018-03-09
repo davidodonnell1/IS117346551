@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About Cloud</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: lightblue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>
+</head>
+<body background = "http://getwallpapers.com/wallpaper/full/5/8/c/587386.jpg">
+
+
+<ul>
+  <li><a href="Homepage.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CV/Resume</a>
+    <div class="dropdown-content">
+      <a href="CV/CV-Page1.html">Personal Details</a>
+      <a href="CV/CV-Page2.html">Education</a>
+      <a href="CV/CV-Page3.html">Work Experience</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Interests</a>
+    <div class="dropdown-content">
+      <a href="Interests/sport.html">Sport</a>
+      <a href="Interests/travel.html">Travel</a>
+      <a href="Interests/cloud.html">Cloud Services</a>
+    </div>
+  </li>
+  <li><a href="aboutcloud.html">About Cloud</a></li>
+</ul>
+        
+        
+<div class="container">
+  <img src="http://pluspng.com/img-png/salesforce-logo-png-logo-transparent-background-png-2351x1050-salesforce-icon-transparent-background-2351.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Software as a service is a way of delivering centrally hosted applications over the Internet—as a service. SaaS applications are sometimes called web-based software, on-demand software, or hosted software. Whatever the name, SaaS applications run on a SaaS provider’s servers.
+Instead of installing and maintaining software, you simply access it via the Internet, freeing yourself from complex software and hardware management. The provider manages access to the application, including security, availability, and performance. SaaS business applications are usually accessed by users using a thin client via a web browser.</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="http://1000logos.net/wp-content/uploads/2017/08/Cloud-9-Logo.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Platform as a Service or PaaS is a set of cloud based services that enable business users and developers to build applications at a speed that on-premise solutions cannot match. As it’s a cloud based service there’s no need to worry about the set-up and maintenance of servers, patching, upgrades, authentication, and so on, users can just focus on creating the best user experience possible. PaaS also delivers a set of additional services such as workflow and design tools and rich APIs all intended to help business users and developers create applications that delight their users.
+
+Successful companies in today's business world are the ones that put the customer at the centre of what they do. One easy way to facilitate that is by providing customer-friendly web applications and services that enable high-quality service and support. So for companies developing apps why opt for a platform as a service, instead of creating the facilities to do this on your the premises?</div>
+  </div>
+  
+</body>
+</html>
